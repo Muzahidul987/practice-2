@@ -1,12 +1,48 @@
-.heading{
+/* this is body section */
+body {
+    margin: 0px;
+}
+
+/* this is heading section */
+.heading {
     background-color: #686ff6;
-}
-.logo{
+    width: 100%;
     display: inline-block;
 }
-.name{
-    display: inline-block;
+
+.logo {
+    float: left;
+    margin: 1% 0% 0 5%;
+
 }
-.option{
-    display: inline-block;
+
+.name {
+    font-size: 15px;
+    float: left;
+    margin: 5px 15px;
+}
+
+.heading .name span {
+    color: #51fe44;
+}
+
+.option {
+    float: right;
+    margin: 30px 0px;
+    width: 900px;
+}
+
+.option a {
+    float: left;
+    margin: 0 4%;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background: red;
+    color: yellow;
+}
+
+.option a span {
+    color: #51fe44;
 }
