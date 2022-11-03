@@ -22,7 +22,7 @@ body {
 .name {
     font-size: 15px;
     float: left;
-    margin: 1px 15px;
+    margin:0px  15px;
     font-family: sans-serif;
     letter-spacing: 5px ;
 }
@@ -114,15 +114,18 @@ a:hover{
     overflow: hidden;
 }
 /* need help */
-.poster .button{
-    float: left;
+.poster .button .contact{
+    background-color: black;
+    color: white;
 }
 
 /* this is after poster section  */
 .small{
     margin-left: 25%;
+    margin-bottom: 0px;
     width: 900px;
     font-family: sans-serif;
+    overflow: hidden;
 }
 .small .small_icon{
     float: left;
@@ -146,4 +149,31 @@ a:hover{
 }
 .small .small_icon p{
     padding: 10px;
+    margin-top: 0px;
+}
+
+/* this is service section  */
+.service {
+   font-family: sans-serif;
+}
+.service .car_service{
+    width: 100%;
+    text-align: center;
+    font-size:40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.service .service_design .pic_1_design img{
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.service .service_design .upper_message{
+    border: 1px solid black;
+    width: 600px;
+    margin: 0px 400px;
+    text-align: center;
+}
+.service .service_design .pic_2_design img{
+    margin-left: 500px;
 }
