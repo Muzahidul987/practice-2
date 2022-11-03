@@ -195,16 +195,24 @@ a:hover {
     border-radius: 20px;
     background-color: white;
     width: 500px;
-    margin: 100px 00px 0 250px ;
-    padding: 0 10px 90px;
+    margin: 50px 00px 0 250px ;
+    padding: 0 10px 10px;
     text-align: center;
 }
 .service .service_design .upper_message p{
     text-align: justify;
     padding: 10px;
+    line-height:30px ;
+}
+.service .service_design .upper_message button{
+    color: white;
+    background-color: #14fc03;
+    border-radius: 30px;
+    border-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px 20px;
+    text-transform: capitalize;
 }
 
-.service .service_design .pic_2_design img {
-    margin-left: 300px;
-    float: left;
-   }
