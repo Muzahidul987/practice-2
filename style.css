@@ -170,7 +170,7 @@ a:hover {
 .service {
     font-family: sans-serif;
     overflow: hidden;
-    display: block;
+    margin-bottom: opx;
 }
 
 .service .car_service {
@@ -215,4 +215,5 @@ a:hover {
     padding:5px 20px;
     text-transform: capitalize;
 }
+/* this is what_we_do section  */
 
