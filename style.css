@@ -185,7 +185,7 @@ a:hover {
 .service .service_design {
     background: url(images/blue.png) no-repeat;
     width: 100%;
-    height: 900px;
+    height: 650px;
     margin-left: 250px;
     overflow: hidden;
 }
@@ -216,4 +216,35 @@ a:hover {
     text-transform: capitalize;
 }
 /* this is what_we_do section  */
-
+.what_we_do{
+    text-align: center;
+    width: 850px;
+    margin:0  auto;
+    font-family: sans-serif;
+}
+.what_we_do h2{
+    font-size: 40px;
+    height: 40px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.what_we_do .we_do_pic{
+    display: inline-block;
+}
+.what_we_do .we_do_pic img{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    border-radius: 30px;
+}
+.what_we_do button{
+    color: white;
+    background-color: #14fc03;
+    border-radius: 30px;
+    border-color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px 20px;
+    text-transform: capitalize;
