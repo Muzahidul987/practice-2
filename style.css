@@ -309,3 +309,11 @@ a:hover {
     color: rgb(92, 89, 137);
     font-size: 20px;
 }
+
+/* this is footer section  */
+footer{
+    background-color: #141629;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
