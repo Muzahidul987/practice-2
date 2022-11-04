@@ -243,8 +243,28 @@ a:hover {
     background-color: #14fc03;
     border-radius: 30px;
     border-color:white;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding:5px 20px;
+    padding:7px 25px;
     text-transform: capitalize;
+}
+
+/* this is contact_us section  */
+.contact_us{
+    background-color: #141629;
+    color: white;
+    font-family: sans-serif;
+}
+.contact_us form{
+    width: 500px;
+    font-size: 50px;
+    margin-left: 90px;
+}
+.contact_us form fieldset .typs{
+    float: left;
+    width: 300px;
+    margin: 10px 0;
+    background-color: #141629;
+    color: white;
+}
