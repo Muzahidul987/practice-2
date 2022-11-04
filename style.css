@@ -219,7 +219,7 @@ a:hover {
 .what_we_do{
     text-align: center;
     width: 850px;
-    margin:0  auto;
+    margin:0  auto 20px;
     font-family: sans-serif;
 }
 .what_we_do h2{
@@ -255,16 +255,57 @@ a:hover {
     background-color: #141629;
     color: white;
     font-family: sans-serif;
+    width: 100%;
+    height: 450px;
 }
-.contact_us form{
+.contact_us .form{
     width: 500px;
+    height: 400px;
     font-size: 50px;
     margin-left: 90px;
+    float: left;
 }
 .contact_us form fieldset .typs{
-    float: left;
-    width: 300px;
-    margin: 10px 0;
+    width: 100%;
+    height: 30px;
     background-color: #141629;
     color: white;
+    display: inline-block;
+}
+.contact_us form fieldset textarea{
+    margin-top: 30px;
+}
+.contact_us form fieldset button{
+    color: white;
+    background-color: #14fc03;
+    border-radius: 30px;
+    border-color:#14fc03;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:3px 25px;
+    text-transform: capitalize;
+}
+.contact_us .location{
+    float: left;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.contact_us .location .img_2{
+    width: 500px;
+    margin-top: 30px;
+}
+.contact_us .location .location_text {
+    width: 500px;
+}
+.contact_us .location .location_text img {
+    width: 18px;
+}
+.contact_us .location .location_text h4{
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    color: rgb(92, 89, 137);
+    font-size: 20px;
 }
