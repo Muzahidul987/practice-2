@@ -7,7 +7,7 @@ body {
 .heading {
     background-color: #686ff6;
     display: block;
-    border-bottom: 4px solid black;
+    border-bottom: 15px solid black;
 }
 
 .clear{
@@ -19,11 +19,11 @@ body {
     margin: .5% 0% 0 5%;
 
 }
-
+.name h2{
+    margin: 15px 0px;
+}
 .name {
-    font-size: 15px;
-    border: 1px solid red;
-    line-height: 25px;
+    font-size: 20px;
     float: left;
     margin: 0px 15px;
     font-family: sans-serif;
@@ -36,7 +36,7 @@ body {
 
 .option {
     float: right;
-    margin: 20px 0px;
+    margin-top: 20px;
     width: 1000px;
 }
 
@@ -65,14 +65,6 @@ a:hover {
 .heading .option input{
     border-radius: 7px;
     border-color: white;
-}
-
-/* need help..!! */
-.blank {
-    background-color: black;
-    border: 1px solid black;
-    margin-top: 0px;
-    overflow: hidden;
 }
 
 /* this is poster section */
