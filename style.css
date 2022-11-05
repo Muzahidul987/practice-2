@@ -59,6 +59,10 @@ a:hover {
 .option a span {
     color: #51fe44;
 }
+.heading .option input{
+    border-radius: 7px;
+    border-color: white;
+}
 
 /* need help..!! */
 .blank {
