@@ -6,11 +6,12 @@ body {
 /* this is heading section */
 .heading {
     background-color: #686ff6;
-    width: 100%;
-    height: 60px;
-    display: inline-block;
-    margin-bottom: 0px;
-    overflow: hidden;
+    display: block;
+    border-bottom: 4px solid black;
+}
+
+.clear{
+    clear: both;
 }
 
 .logo {
